@@ -125,6 +125,9 @@ export default function Home() {
         <h3 className="scroll-m-20 text-lg text-center mt-2 font-bold">David Restaurante C&A</h3>
         <div className="flex items-center gap-2 justify-center mb-4">
           <FaWhatsapp />
+          <h3 className="scroll-m-20 text-md text-center font-normal">62 9 8590-5820 </h3>
+          |
+          <FaWhatsapp />
           <h3 className="scroll-m-20 text-md text-center font-normal">62 9 8590-5272 </h3>
         </div>
 
@@ -138,7 +141,7 @@ export default function Home() {
                 <h3 className="text-lg font-bold">{potato.title}</h3>
                 <h3 className="text-xs">R$ 10,00</h3>
               </div>
-              <blockquote className="italic text-zinc-700 flex-1 truncate">{potato.description}</blockquote>
+              <blockquote className="italic text-zinc-700 flex-1 line-clamp-3 text-sm">{potato.description}</blockquote>
               <Button className="mt-2 gap-2 justify-between hover:pr-6 transition-all bg-green-500 hover:bg-green-400">
                 Pedir
                 <FaWhatsapp />
@@ -156,7 +159,7 @@ export default function Home() {
                 <h3 className="text-lg font-bold">{potato.title}</h3>
                 <h3 className="text-xs">R$ 10,00</h3>
               </div>
-              <blockquote className="italic text-zinc-700 flex-1 truncate">{potato.description}</blockquote>
+              <blockquote className="italic text-zinc-700 flex-1 line-clamp-3 text-sm">{potato.description}</blockquote>
               <Button className="mt-2 gap-2 justify-between hover:pr-6 transition-all bg-green-500 hover:bg-green-400">
                 Pedir
                 <FaWhatsapp />
@@ -174,7 +177,7 @@ export default function Home() {
                 <h3 className="text-lg font-bold">{potato.title}</h3>
                 <h3 className="text-xs">R$ 10,00</h3>
               </div>
-              <blockquote className="italic text-zinc-700 flex-1 truncate">{potato.description}</blockquote>
+              <blockquote className="italic text-zinc-700 flex-1 line-clamp-3 text-sm">{potato.description}</blockquote>
               <Button className="mt-2 gap-2 justify-between hover:pr-6 transition-all bg-green-500 hover:bg-green-400">
                 Pedir
                 <FaWhatsapp />
