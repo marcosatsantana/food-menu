@@ -123,16 +123,19 @@ export default function Home() {
           </div>
         </div>
         <h3 className="scroll-m-20 text-lg text-center mt-2 font-bold">David Restaurante C&A</h3>
-        <div className="flex items-center gap-2 justify-center mb-4">
-          <FaWhatsapp />
-          <h3 className="scroll-m-20 text-md text-center font-normal">62 9 8590-5820 </h3>
+        <div className="flex items-center gap-1 justify-center mb-4">
+          <FaWhatsapp size={12} />
+          <h3 className="scroll-m-20 text-xs text-center font-normal">62 9 8590-5820 </h3>
           |
-          <FaWhatsapp />
-          <h3 className="scroll-m-20 text-md text-center font-normal">62 9 8590-5272 </h3>
+          <FaWhatsapp size={12} />
+          <h3 className="scroll-m-20 text-xs text-center font-normal">62 9 8590-5272 </h3>
         </div>
 
 
-        <h3 className="scroll-m-20 text-xl font-bold mx-4">Batatas recheada</h3>
+        <div className="flex items-center mx-4 gap-2">
+          <h3 className="scroll-m-20 text-xl font-bold">Batatas recheada</h3>
+          <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex-1 h-2 rounded-sm"></div>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-around p-4 gap-2">
           {stuffedPotatoes.map((potato) => (
             <Card className="flex flex-col p-2 gap-2" key={potato.title}>
@@ -150,7 +153,10 @@ export default function Home() {
           ))}
         </div>
 
-        <h3 className="scroll-m-20 text-xl font-bold my-4 mx-4">Pasteis</h3>
+        <div className="flex items-center mx-4 gap-2">
+          <h3 className="scroll-m-20 text-xl font-bold">Pasteis</h3>
+          <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex-1 h-2 rounded-sm"></div>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-around p-4 gap-2">
           {pastries.map((potato) => (
             <Card className="flex flex-col p-2 gap-2" key={potato.title}>
@@ -168,7 +174,10 @@ export default function Home() {
           ))}
         </div>
 
-        <h3 className="scroll-m-20 text-xl font-bold my-4 mx-4">Cremes</h3>
+        <div className="flex items-center mx-4 gap-2">
+          <h3 className="scroll-m-20 text-xl font-bold">Cremes</h3>
+          <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex-1 h-2 rounded-sm"></div>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-around p-4 gap-2">
           {fruitCreams.map((potato) => (
             <Card className="flex flex-col p-2 gap-2" key={potato.title}>
