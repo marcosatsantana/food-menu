@@ -11,6 +11,9 @@ export default function Home() {
 
   useEffect(() => {
     console.log({ celular, cpf });
+    if(isLoading){
+      setIsLoading(false)
+    }
   }, [celular, cpf]);
 
   const stripMask = (maskedValue: any) => {
