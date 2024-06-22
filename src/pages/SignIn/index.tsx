@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Input } from '../../components/ui/input';
 import { Button } from '../../components/ui/button';
 import { useAuth } from '../../hooks/auth';
 
 export default function SignIn() {
-  const { signIn, user } = useAuth();
+  const { signIn } = useAuth();
   const [username, setUserName] = useState('');
   const [password, setPassword] = useState('');
 
